@@ -1,0 +1,169 @@
+.form-container {
+    max-width: 600px;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-input,
+.input-field {
+    width: 94%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+select.form-input,
+select.input-field {
+    width: 50%;
+    padding: 6px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.button,
+.submit-button {
+    width: 50%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.button-add {
+    width: 20%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.button-add:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.button-add:active {
+    background-color: #388e3c;
+    transform: scale(1);
+}
+
+
+.prescription-item {
+    padding: 6px;
+    text-align: left;
+    background-color: #f2f2f2;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+}
+
+.pharmacy-prescription-list li {
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 0.85rem;
+}
+
+.added-medicines ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.added-medicines ul li {
+    margin-bottom: 10px;
+}
+
+.added-medicine-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.medicine-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.medicine-name {
+    flex: 1;
+    text-align: left;
+
+}
+
+.medicine-price {
+    flex: 1;
+    text-align: center;
+}
+
+.doctor-delete-button {
+    margin-left: 20px;
+}
+
+.total-price {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.excel-upload {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    z-index: 1000;
+}
+
+.excel-upload input[type="file"] {
+    display: none;
+}
+
+.excel-upload label {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    display: inline-block;
+}
