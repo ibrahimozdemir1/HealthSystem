@@ -1,7 +1,7 @@
 # HealthSystem
 
 ## Project Source Code
-For the project source code, click [here](https://github.com/ibrahimozdemir1/Flight_API).
+For the project source code, click [here](https://github.com/ibrahimozdemir1/HealthSystem).
 
 ## Project Introduction Video
 For the project introduction video, click [here](https://youtu.be/n96Nj27KaFg).
